@@ -832,7 +832,7 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": true,
+                    "animate": false,
                     "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
                     "spriteType": "static",
                     "direction": "down",
