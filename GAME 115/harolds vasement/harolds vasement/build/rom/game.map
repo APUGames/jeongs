@@ -189,8 +189,8 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0507
 		l__DATA	0E1E
-		l__CODE_10	105E
-		l__CODE_5	2151
+		l__CODE_5	216F
+		l__CODE_10	24AA
 		l__CODE	2C12
 		s__HOME	2E12
 		s__BASE	3064
@@ -200,11 +200,11 @@ AREA .  .ABS.
 		l__CODE_1	35B4
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
-		l__CODE_9	3FCF
-		l__CODE_8	3FF3
-		l__CODE_7	3FF7
-		l__CODE_6	3FFE
+		l__CODE_9	3FE5
+		l__CODE_8	3FF9
+		l__CODE_7	3FFC
 		s__CODE_10	4000
+		l__CODE_6	4000
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1021,64 +1021,64 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 105E
+	SIZE 24AA
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFE
+	SIZE 4000
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF7
+	SIZE 3FFC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF3
+	SIZE 3FF9
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FCF
+	SIZE 3FE5
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2151
+	SIZE 216F
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	401B
-		_background_attr_bank_ptrs	4048
-		_palette_bank_ptrs	4075
-		_sprite_bank_ptrs	4078
-		_scene_bank_ptrs	40EA
-		_collision_bank_ptrs	4117
-		_avatar_bank_ptrs	4144
-		_music_tracks	4156
-		_music_banks	415A
-		_Start_Adventure	415C
-		_Update_Adventure	4171
-		_Start_Platform	4771
-		_Update_Platform	483D
-		_Start_PointNClick	541D
-		_Update_PointNClick	5446
-		_Start_Shmup	5701
-		_Update_Shmup	5791
-		_Start_TopDown	5D33
-		_Update_TopDown	5D48
+		_background_attr_bank_ptrs	404E
+		_palette_bank_ptrs	4081
+		_sprite_bank_ptrs	4084
+		_scene_bank_ptrs	40F9
+		_collision_bank_ptrs	412C
+		_avatar_bank_ptrs	415F
+		_music_tracks	4174
+		_music_banks	4178
+		_Start_Adventure	417A
+		_Update_Adventure	418F
+		_Start_Platform	478F
+		_Update_Platform	485B
+		_Start_PointNClick	543B
+		_Update_PointNClick	5464
+		_Start_Shmup	571F
+		_Update_Shmup	57AF
+		_Start_TopDown	5D51
+		_Update_TopDown	5D66
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1488,64 +1488,64 @@ MODULES
 		NAME Runtime
 	FILE C:/tmp/_gbsbuild/obj/Actor_a.o
 	FILE C:/tmp/_gbsbuild/obj/Actor_b.o
-		NAME C__tmp_lcc125721
+		NAME C__tmp_lcc158001
 	FILE C:/tmp/_gbsbuild/obj/Actor.o
-		NAME C__tmp_lcc154601
+		NAME C__tmp_lcc134561
 	FILE C:/tmp/_gbsbuild/obj/asm.macros.o
 	FILE C:/tmp/_gbsbuild/obj/BankData.o
-		NAME C__tmp_lcc16921
+		NAME C__tmp_lcc91281
 	FILE C:/tmp/_gbsbuild/obj/BankManager.o
-		NAME C__tmp_lcc156521
+		NAME C__tmp_lcc144081
 	FILE C:/tmp/_gbsbuild/obj/Camera_a.o
 	FILE C:/tmp/_gbsbuild/obj/Camera.o
-		NAME C__tmp_lcc111401
+		NAME C__tmp_lcc134041
 	FILE C:/tmp/_gbsbuild/obj/Collision.o
-		NAME C__tmp_lcc13721
+		NAME C__tmp_lcc71561
 	FILE C:/tmp/_gbsbuild/obj/Core_Main.o
-		NAME C__tmp_lcc116801
+		NAME C__tmp_lcc117161
 	FILE C:/tmp/_gbsbuild/obj/DataManager.o
-		NAME C__tmp_lcc135681
+		NAME C__tmp_lcc159121
 	FILE C:/tmp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__tmp_lcc169841
+		NAME C__tmp_lcc163001
 	FILE C:/tmp/_gbsbuild/obj/FadeManager.o
-		NAME C__tmp_lcc119561
+		NAME C__tmp_lcc109681
 	FILE C:/tmp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/tmp/_gbsbuild/obj/gbt_player.o
 	FILE C:/tmp/_gbsbuild/obj/Input.o
-		NAME C__tmp_lcc169961
+		NAME C__tmp_lcc118241
 	FILE C:/tmp/_gbsbuild/obj/Math.o
-		NAME C__tmp_lcc124081
+		NAME C__tmp_lcc54161
 	FILE C:/tmp/_gbsbuild/obj/MusicManager.o
-		NAME C__tmp_lcc111441
+		NAME C__tmp_lcc57401
 	FILE C:/tmp/_gbsbuild/obj/Palette.o
-		NAME C__tmp_lcc54641
+		NAME C__tmp_lcc140841
 	FILE C:/tmp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__tmp_lcc70001
+		NAME C__tmp_lcc129361
 	FILE C:/tmp/_gbsbuild/obj/Projectiles.o
-		NAME C__tmp_lcc52401
+		NAME C__tmp_lcc162241
 	FILE C:/tmp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__tmp_lcc132081
+		NAME C__tmp_lcc149321
 	FILE C:/tmp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__tmp_lcc151361
+		NAME C__tmp_lcc22961
 	FILE C:/tmp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/tmp/_gbsbuild/obj/Scroll_b.o
-		NAME C__tmp_lcc143961
+		NAME C__tmp_lcc160161
 	FILE C:/tmp/_gbsbuild/obj/Scroll.o
-		NAME C__tmp_lcc27961
+		NAME C__tmp_lcc36881
 	FILE C:/tmp/_gbsbuild/obj/Sprite_b.o
-		NAME C__tmp_lcc93801
+		NAME C__tmp_lcc18361
 	FILE C:/tmp/_gbsbuild/obj/Sprite.o
-		NAME C__tmp_lcc118721
+		NAME C__tmp_lcc109721
 	FILE C:/tmp/_gbsbuild/obj/Stack.o
-		NAME C__tmp_lcc125641
+		NAME C__tmp_lcc148441
 	FILE C:/tmp/_gbsbuild/obj/Trigger_b.o
-		NAME C__tmp_lcc126601
+		NAME C__tmp_lcc163561
 	FILE C:/tmp/_gbsbuild/obj/Trigger.o
-		NAME C__tmp_lcc155401
+		NAME C__tmp_lcc132201
 	FILE C:/tmp/_gbsbuild/obj/UI_b.o
-		NAME C__tmp_lcc96241
+		NAME C__tmp_lcc32601
 	FILE C:/tmp/_gbsbuild/obj/UI.o
-		NAME C__tmp_lcc60041
+		NAME C__tmp_lcc26641
 	FILE C:/tmp/_gbsbuild/obj/bank_10.o
 		NAME bank_10
 	FILE C:/tmp/_gbsbuild/obj/bank_6.o
@@ -1557,19 +1557,19 @@ MODULES
 	FILE C:/tmp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/tmp/_gbsbuild/obj/data_ptrs.o
-		NAME C__tmp_lcc76161
+		NAME C__tmp_lcc154441
 	FILE C:/tmp/_gbsbuild/obj/main.o
-		NAME C__tmp_lcc105521
+		NAME C__tmp_lcc144001
 	FILE C:/tmp/_gbsbuild/obj/Adventure.o
-		NAME C__tmp_lcc107561
+		NAME C__tmp_lcc9521
 	FILE C:/tmp/_gbsbuild/obj/Platform.o
-		NAME C__tmp_lcc144881
+		NAME C__tmp_lcc71001
 	FILE C:/tmp/_gbsbuild/obj/PointNClick.o
-		NAME C__tmp_lcc126401
+		NAME C__tmp_lcc30201
 	FILE C:/tmp/_gbsbuild/obj/Shmup.o
-		NAME C__tmp_lcc82801
+		NAME C__tmp_lcc102081
 	FILE C:/tmp/_gbsbuild/obj/TopDown.o
-		NAME C__tmp_lcc14241
+		NAME C__tmp_lcc113961
 LIBRARIES
 	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
