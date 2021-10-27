@@ -23279,9 +23279,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "2ac88f2c-c5be-4365-aad4-1268857b5692",
-        "startX": 4,
-        "startY": 12,
+        "startSceneId": "43c587ed-401a-4819-bd7a-fa19ec5f7c38",
+        "startX": 5,
+        "startY": 7,
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
