@@ -414,6 +414,15 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "4a5a5fa0-2362-41c3-817b-19e1a89affe1",
+                    "command": "EVENT_SET_TRUE",
+                    "args": {
+                        "variable": "3",
+                        "__collapse": false,
+                        "__comment": true
+                    }
+                },
+                {
                     "id": "d834764b-dff7-4a86-841b-708672c93153",
                     "command": "EVENT_VARIABLE_MATH",
                     "args": {
@@ -424,7 +433,8 @@
                         "value": 4,
                         "minValue": "0",
                         "maxValue": "255",
-                        "clamp": false
+                        "clamp": false,
+                        "__collapse": true
                     }
                 },
                 {
@@ -14425,7 +14435,7 @@
                             "id": "0a18c5f3-067d-4128-b07e-a9cc712cf3d3",
                             "command": "EVENT_IF_TRUE",
                             "args": {
-                                "variable": "T0",
+                                "variable": "27",
                                 "__collapseElse": false
                             },
                             "children": {
@@ -23342,13 +23352,13 @@
         }
     ],
     "settings": {
-        "startSceneId": "84c8f5af-6f22-4269-9228-faadecbc25ec",
-        "startX": 3,
-        "startY": 3,
+        "startSceneId": "9cb0b980-f024-4571-8462-ef854796c049",
+        "startX": 16,
+        "startY": 14,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 867,
-        "worldScrollY": 329,
+        "worldScrollX": 597,
+        "worldScrollY": 705,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [

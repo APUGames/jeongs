@@ -1557,7 +1557,7 @@ MODULES
 	FILE C:/tmp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/tmp/_gbsbuild/obj/data_ptrs.o
-		NAME C__tmp_lcc104121
+		NAME C__tmp_lcc17241
 	FILE C:/tmp/_gbsbuild/obj/main.o
 		NAME C__tmp_lcc144001
 	FILE C:/tmp/_gbsbuild/obj/Adventure.o
