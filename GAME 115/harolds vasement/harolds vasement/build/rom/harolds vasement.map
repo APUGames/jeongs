@@ -190,7 +190,7 @@ AREA .  .ABS.
 		l__GSINIT	0507
 		l__DATA	0E1E
 		l__CODE_5	216F
-		l__CODE_10	24AA
+		l__CODE_10	24B8
 		l__CODE	2C12
 		s__HOME	2E12
 		s__BASE	3064
@@ -200,9 +200,9 @@ AREA .  .ABS.
 		l__CODE_1	35B4
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
-		l__CODE_9	3FE5
-		l__CODE_8	3FF9
-		l__CODE_7	3FFC
+		l__CODE_7	3FF1
+		l__CODE_9	3FFC
+		l__CODE_8	3FFF
 		s__CODE_10	4000
 		l__CODE_6	4000
 		s__CODE_1	4000
@@ -1021,7 +1021,7 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 24AA
+	SIZE 24B8
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
@@ -1035,21 +1035,21 @@ AREA _CODE_6
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFC
+	SIZE 3FF1
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF9
+	SIZE 3FFF
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FE5
+	SIZE 3FFC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
@@ -1557,7 +1557,7 @@ MODULES
 	FILE C:/tmp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/tmp/_gbsbuild/obj/data_ptrs.o
-		NAME C__tmp_lcc154441
+		NAME C__tmp_lcc104121
 	FILE C:/tmp/_gbsbuild/obj/main.o
 		NAME C__tmp_lcc144001
 	FILE C:/tmp/_gbsbuild/obj/Adventure.o

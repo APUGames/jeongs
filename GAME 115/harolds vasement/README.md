@@ -8,6 +8,10 @@ A game produced at APU by Seojin Jeong
 
 Harold's void is filled after he goes through an unusual journey.
 
+## Instructions
+
+Access builds folder, download web directory or rom folder to play in web browser ir emulator.
+
 ## Controls 
 
 **Web**: Z, X, Enter (start), Shift (select), WASD (movement)

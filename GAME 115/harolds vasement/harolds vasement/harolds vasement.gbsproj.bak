@@ -1123,7 +1123,8 @@
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": false
+                                            "__collapseElse": false,
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -1302,69 +1303,69 @@
                                         }
                                     },
                                     {
-                                        "id": "4429f05a-5f99-474e-ad6d-b3d4fbc45ad6",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "ea4d886c-043f-4077-8314-ea88466d504d",
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "12",
-                                "__collapseElse": false,
-                                "__collapse": false,
-                                "__disableElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "c9ddb75f-4b27-4c45-bb6b-80df7966ea5d",
-                                        "command": "EVENT_TEXT",
+                                        "id": "ea4d886c-043f-4077-8314-ea88466d504d",
+                                        "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "text": [
-                                                "But you're going\naway\nnow.",
-                                                "Let's have that\ncake. "
+                                            "variable": "12",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__disableElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "id": "c9ddb75f-4b27-4c45-bb6b-80df7966ea5d",
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "But you're going\naway\nnow.",
+                                                            "Let's have that\ncake. "
+                                                        ],
+                                                        "avatarId": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ab8987eb-d9c3-4393-9978-8342d90f1bf9",
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "ce5b6576-3411-40b6-9ac8-30cf3450b552",
+                                                    "command": "EVENT_END"
+                                                }
                                             ],
-                                            "avatarId": ""
+                                            "false": [
+                                                {
+                                                    "id": "cce2d65f-cf1a-4553-87a4-c930cc8c2ccb",
+                                                    "command": "EVENT_SWITCH_SCENE",
+                                                    "args": {
+                                                        "sceneId": "b7d0166b-fbf3-48d1-b280-511054131472",
+                                                        "x": 9,
+                                                        "y": 8,
+                                                        "direction": "",
+                                                        "fadeSpeed": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "a091bda2-60f2-4455-a11d-76e260004782",
+                                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "spriteSheetId": "7123cf30-d0ea-4aa1-affa-88fe51cf434b"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "34819042-3cd9-4aa5-a4f4-853fbca2657c",
+                                                    "command": "EVENT_END"
+                                                }
+                                            ]
                                         }
                                     },
                                     {
-                                        "id": "ab8987eb-d9c3-4393-9978-8342d90f1bf9",
-                                        "command": "EVENT_ACTOR_HIDE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": false
-                                        }
-                                    },
-                                    {
-                                        "id": "ce5b6576-3411-40b6-9ac8-30cf3450b552",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "cce2d65f-cf1a-4553-87a4-c930cc8c2ccb",
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "b7d0166b-fbf3-48d1-b280-511054131472",
-                                            "x": 9,
-                                            "y": 8,
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        }
-                                    },
-                                    {
-                                        "id": "a091bda2-60f2-4455-a11d-76e260004782",
-                                        "command": "EVENT_ACTOR_SET_SPRITE",
-                                        "args": {
-                                            "actorId": "player",
-                                            "spriteSheetId": "7123cf30-d0ea-4aa1-affa-88fe51cf434b"
-                                        }
-                                    },
-                                    {
-                                        "id": "34819042-3cd9-4aa5-a4f4-853fbca2657c",
+                                        "id": "4429f05a-5f99-474e-ad6d-b3d4fbc45ad6",
                                         "command": "EVENT_END"
                                     }
                                 ]
@@ -23284,8 +23285,8 @@
         "startY": 7,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 437,
-        "worldScrollY": 378,
+        "worldScrollX": 821,
+        "worldScrollY": 431,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
